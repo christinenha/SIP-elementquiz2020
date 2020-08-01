@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #a9c1b5;
+  margin: 2em;
+}
+
+h1 {
+  font-family: "Acme", sans-serif;
+  font-size: 3em;
+  color: #ec795c;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2em;
+  margin-top: 2em;
+  color: #39544e;
+}
+
+button {
+  font-family: "Odibee Sans", cursive;
+  font-size: 1.3em;
+  background-color: #ec795c;
+  color: #39544e;
+  border-radius: 10px;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.answer-choice {
+  display: flex;
+  flex-direction: column;
+  justify-center: center;
+  align-items: center;
+}
+
+.answer-choice img {
+  height: 10em;
+  width: auto;
+  margin: 1.5em;
+  border-radius: 10%;
+  border: 0.5em solid #ec795c;
+}
+
+#restart button {
+  background-color: #f3be5d;
+}
